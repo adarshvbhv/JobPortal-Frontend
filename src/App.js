@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "https://jobportal-backend-c5p6.onrender.com/jobs/";
+const API_URL = "https://jobportal-backend-5p6.onrender.com/jobs/";
 
 function App() {
   const [jobs, setJobs] = useState([]);
